@@ -1,7 +1,5 @@
 # spring-boot-mysql
 
-minimalist spring boot app with mySQL
-
 Demo to show a spring boot application with mySQL written in kotlin
 
 ### Java setup
