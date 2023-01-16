@@ -12,7 +12,7 @@ in `$HOME/.sdkman/etc/config` set `sdkman_auto_env=true`
 
 ### How to run
 
-Start the Elasticsearch `docker-compose` with:
+Start the mysql `docker-compose` with:
 
 ```bash
 docker-compose up -d
