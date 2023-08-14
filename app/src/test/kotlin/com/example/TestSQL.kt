@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.context.SpringBootTest
 import org.springframework.transaction.support.TransactionTemplate
-import java.util.*
 
 @SpringBootTest
 class TestSQL {
@@ -25,7 +24,7 @@ class TestSQL {
         transactionTemplate.execute {
             val objs = repositorySQL.findAll()
             assertThat(objs.size).isGreaterThanOrEqualTo(1)
-            assertThat(objs[0]).isEqualTo(demo)
+            assertThat(objs[0]).usingRecursiveAssertion().isEqualTo(demo)
         }
     }
 
