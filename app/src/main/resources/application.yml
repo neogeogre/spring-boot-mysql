@@ -1,0 +1,15 @@
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.MariaDBDialect
+    hibernate:
+      ddl-auto: validate # validate
+      naming.implicit-strategy: org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy
+
+  datasource:
+    url: "jdbc:mariadb://localhost:3306/jellix?useSSL=false"
+    username: root
+    password:
+    hikari:
+      maximumPoolSize: 5
+  liquibase:
+    change-log: classpath:liquibase/master.xml

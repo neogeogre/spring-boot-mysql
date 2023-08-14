@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+
+        <!-- Keep alphabetic order and do not introduce infinite loop: https://docs.liquibase.com/concepts/advanced/includeall.html -->
+        <includeAll path="liquibase/changelogs"/>
+
+</databaseChangeLog>

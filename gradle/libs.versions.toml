@@ -1,0 +1,49 @@
+[versions]
+apacheCommonLang = "3.13.0"
+apachePoi = "5.2.3"
+commonCSV = "1.10.0"
+commonLang = "2.6"
+greenMail = "2.1.0-alpha-1"
+jakarta = "2.1.1"
+jakartaInject = "2.0.1"
+jakartaMail = "2.0.1"
+javaxMail = "1.6.2"
+jersey = "3.1.1"
+jpaModelGen = "6.2.7.Final"
+keycloak = "21.0.2"
+liquibase = "4.23.0"
+lombok = "1.18.20"
+mapstruct = "1.5.5.Final"
+mapstructBiding = "0.2.0"
+mariadb = "3.1.4"
+minio = "8.3.8"
+mockito = "5.4.0"
+rsql = "3.0.0"
+rsqlParser = "2.1.0"
+stemysPlatformClient = "0.5.0-SNAPSHOT"
+
+[libraries]
+apacheCommonLang = { module = "org.apache.commons:commons-lang3", version.ref = "apacheCommonLang" }
+apachePoi = { module = "org.apache.poi:poi", version.ref = "apachePoi" }
+commonCSV = { module = "org.apache.commons:commons-csv", version.ref = "commonCSV" }
+commonLang = { module = "commons-lang:commons-lang", version.ref = "commonLang" }
+greenMail = { module = "com.icegreen:greenmail-junit5", version.ref = "greenMail" }
+jakarta = { module = "jakarta.annotation:jakarta.annotation-api", version.ref = "jakarta" }
+jakartaInject = { module = "jakarta.inject:jakarta.inject-api", version.ref = "jakartaInject" }
+jakartaMail = { module = "com.sun.mail:jakarta.mail", version.ref = "jakartaMail" }
+javaxMail = { module = "javax.mail:javax.mail-api", version.ref = "javaxMail" }
+jersey = { module = "org.glassfish.jersey.media:jersey-media-multipart", version.ref = "jersey" }
+jpaModelGen = { module = "org.hibernate.orm:hibernate-jpamodelgen", version.ref = "jpaModelGen" }
+keycloak = { module = "org.keycloak:keycloak-admin-client", version.ref = "keycloak" }
+liquibase = { module = "org.liquibase:liquibase-core", version.ref = "liquibase" }
+mapstruct = { module = "org.mapstruct:mapstruct", version.ref = "mapstruct" }
+mapstructBiding = { module = "org.projectlombok:lombok-mapstruct-binding", version.ref = "mapstructBiding" }
+mapstructProcessor = { module = "org.mapstruct:mapstruct-processor", version.ref = "mapstruct" }
+mariadb = { group = "org.mariadb.jdbc", name = "mariadb-java-client", version.ref = "mariadb" }
+minio = { module = "io.minio:minio", version.ref = "minio" }
+mockitoCore = { module = "org.mockito:mockito-core", version.ref = "mockito" }
+mockitoJunit = { module = "org.mockito:mockito-junit-jupiter", version.ref = "mockito" }
+projectlombok = { module = "org.projectlombok:lombok", version.ref = "lombok" }
+rsql = { module = "io.stemys:rsql-jpa", version.ref = "rsql" }
+rsqlParser = { module = "cz.jirutka.rsql:rsql-parser", version.ref = "rsqlParser" }
+stemysPlatformClient = { module = "io.stemys.platform:java-client", version.ref = "stemysPlatformClient" }

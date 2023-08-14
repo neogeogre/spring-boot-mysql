@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+
+  mariadb:
+    image: mariadb:10.4
+    hostname: mariadb
+    container_name: mariadb
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: yes
+      MYSQL_DATABASE: jellix
+    ports:
+      - "3306:3306"
