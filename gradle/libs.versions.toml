@@ -1,0 +1,7 @@
+[versions]
+liquibase = "4.23.0"
+mariadb = "3.1.4"
+
+[libraries]
+liquibase = { module = "org.liquibase:liquibase-core", version.ref = "liquibase" }
+mariadb = { group = "org.mariadb.jdbc", name = "mariadb-java-client", version.ref = "mariadb" }
