@@ -5,7 +5,7 @@ plugins {
     kotlin("jvm") //  id("org.jetbrains.kotlin.jvm")
 }
 
-group = "ch.brw.hive"
+group = "org.example"
 
 tasks.withType<KotlinCompile> {
     kotlinOptions {

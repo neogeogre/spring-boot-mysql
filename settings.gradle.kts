@@ -1,5 +1,6 @@
 rootProject.name = "spring-boot-mysql"
 
+include("lib")
 include("app")
 
 pluginManagement {
